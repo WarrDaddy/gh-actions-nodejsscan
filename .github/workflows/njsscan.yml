@@ -12,7 +12,7 @@ jobs:
       # required for all workflows
       security-events: write
       # only required for workflows in private repositories
-      actions: readss
+      actions: reads
       contents: read
     steps:
     - name: Upload njsscan report
